@@ -1,0 +1,26 @@
+.about {
+  margin-top: 3em;
+  padding: 7em 0;
+  text-align: left;
+  position: relative;
+}
+
+.about__text {
+  margin-top: 1.75em;
+  line-height: 1.4;
+}
+
+.about__background {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--clr-light);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+@media (min-width: 68em) {
+}
