@@ -91,7 +91,7 @@ svg {
   --fw-semi-bold: 600;
   --fw-bold: 700;
 
-  --fs-600: 1rem;
+  --fs-600: 1.125rem;
   --fs-700: 1.25rem;
   --fs-800: 1.5rem;
   --fs-850: 2.25rem;
@@ -104,6 +104,7 @@ svg {
 
 @media (min-width: 68em) {
   :root {
+    --fs-600: 1.625rem;
     --fs-700: 2rem;
     --fs-800: 2.25rem;
     --fs-850: 3.25rem;
@@ -120,6 +121,9 @@ svg {
 }
 .text-dark {
   color: var(--clr-dark);
+}
+.text-primary {
+  color: var(--clr-gradient-end);
 }
 
 .bg-light {

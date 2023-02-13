@@ -24,13 +24,13 @@ const Experience = () => {
           <img alt="Kinetikos Health logo" src={kinetikosLogo} />
         </figure>
         <div className="experience__description">
-          <p className="fs-700">
+          <p className="fs-700 text-light">
             Kinetikos Health is a digital health company revolutionising the
             standard of care for people with Movement Disorders.
           </p>
         </div>
       </div>
-      <p className="experience__projects fs-700">
+      <p className="experience__projects fs-600 text-light">
         At Kinetikos Health, I contributed mainly to three projects:
       </p>
       <div className="experience__grid experience__grid--image-left">
@@ -41,14 +41,14 @@ const Experience = () => {
           <span className="fs-600 fw-bold text-dark">
             (Medical Device certified)
           </span>
-          <p className="experience__text fs-700">
+          <p className="experience__text fs-600 text-dark">
             Mobile app for monitoring Parkinson's Disease patients. <br />
             - Implemented new features and design (Sensor data accquisition,
             Prescription, Events, Chat, Friends, and more). <br />
             - Managed the app's deploy. <br />- Implemented the API for the new
             features.
           </p>
-          <p className="experience__text fs-700">
+          <p className="experience__text fs-600 text-dark">
             <span className="fs-700 fw-semi-bold text-dark">
               Technologies:{" "}
             </span>
@@ -70,7 +70,7 @@ const Experience = () => {
           <span className="fs-600 fw-bold text-dark">
             (Medical Device certified)
           </span>
-          <p className="experience__text fs-700">
+          <p className="experience__text fs-600 text-dark">
             Web platform that allow clinicians to monitor their patients PD
             condition. <br />
             - Refactored the platform front-end, implementing new design.
@@ -79,7 +79,7 @@ const Experience = () => {
             front-end.
             <br />- Implemented Unit testing for the API.
           </p>
-          <p className="experience__text fs-700">
+          <p className="experience__text fs-600 text-dark">
             <span className="fs-700 fw-semi-bold text-dark">
               Technologies:{" "}
             </span>
@@ -99,7 +99,7 @@ const Experience = () => {
               PROCare4Life - H2020
             </h3>
           </a>
-          <p className="experience__text fs-700">
+          <p className="experience__text fs-600 text-dark">
             European project coordinated by Kinetikos Health. My task was to
             develop a mobile app for monitoring elderly people. <br />
             - Created the app from zero. <br />- Implemented all its features
@@ -109,7 +109,7 @@ const Experience = () => {
             and interface with the mobile app. <br />- Developed a microservice
             to save app data in AWS
           </p>
-          <p className="experience__text fs-700">
+          <p className="experience__text fs-600 text-dark">
             <span className="fs-700 fw-semi-bold text-dark">
               Technologies:{" "}
             </span>
@@ -143,22 +143,24 @@ const Experience = () => {
           />
         </figure>
         <div className="experience__description">
-          <p className="experience__text fs-700">
+          <p className="experience__text fs-700 text-light">
             WIT is a software company that creates products and develops
             projects for the Telecom industry.
           </p>
         </div>
       </div>
-      <p className="experience__projects fs-700">Currently working on:</p>
+      <p className="experience__projects fs-600 text-light">
+        Currently working on:
+      </p>
       <div className="experience__grid experience__grid--image-left">
         <div className="experience__description">
           <h3 className="fs-800 fw-semi-bold text-dark">App TV - tvOS</h3>
-          <p className="experience__text fs-700">
+          <p className="experience__text fs-600 text-dark">
             Major Telecom TV app for Apple TV devices, made with React-Native.
             <br />- Implemented new features and design <br /> - Bugfixing.{" "}
             <br /> [This app is not yet in production]
           </p>
-          <p className="experience__text fs-700">
+          <p className="experience__text fs-600 text-dark">
             <span className="fs-700 fw-semi-bold text-dark">
               Technologies:{" "}
             </span>
