@@ -1,7 +1,7 @@
 {
   "name": "joaomocho",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://joaomocho.github.io/",
   "type": "module",
   "scripts": {
