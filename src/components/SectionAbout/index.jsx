@@ -16,7 +16,7 @@ const About = () => {
       </p>
       <p className="about__text fs-700">
         Using technology to improve life is what drives me! My personality is
-        made of solidarity, problem solving and curiosity in equal measure.
+        made up of solidarity, problem solving and curiosity in equal measure.
       </p>
       <p className="about__text fs-700">
         As a Scout for more than 20 years, I trully believe that "the real way
